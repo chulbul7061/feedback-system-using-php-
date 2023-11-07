@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Online Feedback System</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contacts">Contact</a></li>
+                <li><a href="admin.php">Admin Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Online Feedback System</h1>
+    <div class="feedback-form">
+        <form action="index.php" method="post">
+            <label for="names">Name:</label>
+            <input type="text" id="names" name="names" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mobile">Mobile:</label>
+            <input type="number" id="mobile" name="mobile" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="feedbackType">Feedback Type:</label>
+            <select id="feedbackType" name="feedbackType">
+                <optgroup label="">
+                    <option value=""></option>
+                    
+                </optgroup>
+                <optgroup label="LPU Hospital">
+                    <option value="lpuhospital">General Physician</option>
+                    <option value="lpuhospital">Gastrologist</option>
+                    <option value="lpuhospital">Neorologist</option>
+                    <option value="lpuhospital">Orthopadic</option>
+                </optgroup>
+
+                <optgroup label="LPU MESS">
+                    <option value="lpmess">General Mess</option>
+                    <option value="lpuhospital">Advance</option>
+                </optgroup>
+
+            <optgroup label="Online Courses">
+                <option value="lpuonlinecourse">Online Course OLC-556</option>
+                <option value="lpuonlinecourse">Online Course OLC-777</option>
+                <option value="lpuonlinecourse">Online Course OLC-888</option>
+            </optgroup>
+
+            <optgroup label="LPU Examination">
+                <option value="lpuexamination">LPU Online Examination</option>
+                <option value="lpuexamination">LPU Offline Examination</option>
+             </optgroup>
+
+             <optgroup label="LPU Faculty">
+             <option value="lpufaculty" > Online Faculty</option>
+             <option value="lpufaculty" > Online Offline</option>
+            </optgroup>
+
+            </select>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+
+  
+    </script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
