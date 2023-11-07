@@ -1,7 +1,7 @@
 # feedback-system-using-php-
 
-this simple mini project for college student in this project you can 
-download all the files and you can login in admin section by using usename and password which is 12202437 himi respectively.
+this simple mini project for college students in this project you run by 
+download all the files  in this repository and you can log in in the admin section by using username and password which is 12202437 himi respectively.
 
 simple user can write down the feedback using the following option which is shown in the form.
 
