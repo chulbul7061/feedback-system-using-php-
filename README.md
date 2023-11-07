@@ -11,3 +11,5 @@ here database name is feedback and inside it two table are there one id feedback
 you can enter the data accouring to index.html page also i provided sql file .
 
 basically here i use the xampp server
+
+https://chulbul7061.github.io/feedback-system-using-php-/
